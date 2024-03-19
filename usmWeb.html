@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.1/css/all.min.css">
+    <script src="bootstrap-5/js/bootstrap.min.js"></script>
+    <style>
+      #wrapper{
+        border-color: rgb(249, 238, 250);
+      }
+      header{
+        position: relative;
+      }
+       p a{
+        background-color: rgb(228, 175, 1);
+        border-width: 100px;
+      }
+      p a{
+        margin: 3rem 3rem 0;
+      }
+      .container4{
+        background-image: url(images/gold-creases-1920x800.jpg);
+        background-position: cover;
+        background-repeat: no-repeat;
+      }
+      .circle{
+        align-content: center;
+        justify-content: center;
+      }
+      .circle-item{
+        box-sizing: border-box;
+        margin: 3rem 1.5rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    width: 12.5rem;
+    height: 12.5rem;
+    padding: 1.5rem;
+    border-radius: 50%;
+      }
+      .circle-item{background-color: black;
+        font-weight: bold;
+        float: left;
+        
+        
+      }
+      .circle .circle-item p{
+        font-size: 50px;
+        color: green;
+     }
+     .circle .circle-item span{
+      font-size: 15px;
+      color: aliceblue;
+      font-weight: bold;
+     }
+     
+     .carousel {
+  background-color: #f2f2f2;
+}
+  h3 a{
+  background-color: rgb(228, 175, 1);
+}
+.create{
+  background-image: url(images/gold-creases-1920x800.jpg);
+  background-position: cover;
+   background-repeat: no-repeat;
+   height: 200px;
+   background-color: rgba( 0,0,0,1);
+
+}
+.aiframe{
+  border:  rgb(228, 175, 1) 0px ;
+  border-radius: 40px 40px ;
+   margin: 40px;
+  
+}
+.h3:hover{
+  font-size: larger;
+  text-shadow:  2px 4px 6px#f2f2f2;
+  transform:  rotate3d(30deg);
+}
+ 
+    </style>
+ </head>
+ <body>
+       <header class="container-fluid ">
+            <div class="row">
+                <div class="col-12">
+                  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+                    <div class="container-fluid">
+                        <img src="images/android-icon-192x192.png" alt="logo" width="40px">
+                       <a class="navbar-brand text-white" href="#">THE UNIVERSITY OF SOUTHERN MISSISSIPPI</a>
+                      <a class="navbar-brand text-white" href="#">Southern Miss proud</a>
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown ">Admissions</button>
+                          <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item text-white" href="#">Get Started</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Apply</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Visit</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Request Info</a></li>
+                          </ul>
+                        </div>
+                        <div class="btn-group ">
+                          <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">Academics</button>
+                          <ul class="dropdown-menu bg-dark ">
+                            <li><a class="dropdown-item text-white" href="#">Undergraduate Programs</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Graduate Programs</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Colleges and schools</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Honors College</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Graduate School</a></li>
+                            <li><a class="dropdown-item text-white" href="#">International Education</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Online Learning</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Universoty Liabraries</a></li>
+                          </ul>
+                        </div>
+                        <button type="button" class="btn btn-dark">Student Life</button>
+                        <button type="button" class="btn btn-dark">Arts</button>
+                        <button type="button" class="btn btn-dark">Athletics</button>
+                  </nav>
+            </div>
+            
+        </div>
+          <div class="row mt-0 sticky-top">
+            <div class="col-12">
+              <nav class="navbar-expand-lg navbar-dark bg-dark float-end ">
+                <button type="button" class="btn btn-dark text-white text-decoration-none">Mejors And Degrees</button>
+                        <button type="button" class="btn btn-dark text-white">News</button>
+                        <button type="button" class="btn btn-dark text-white">Event</button>
+                        <button type="button" class="btn btn-dark text-white">Giving</button>
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">INFO FOR</button>
+                          <ul class="dropdown-menu bg-dark">
+                            <li><a class="dropdown-item text-white" href="#">Perspective Student</a></li>
+                            <li><a class="dropdown-item text-white" href="#">current Undergraduate Student</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Current  Graduate Student</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Online Student</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Alumni And Friends</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Faculty and Staff</a></li>
+                          </ul>
+                        </div>
+                        <button type="button" class="btn btn-warning text-dark">Search<i class="fa fa-search"></i></button>
+                      </div>
+              </nav>
+
+                 <div class="video mt-0">
+                <video autoplay autoplay loop muted playsinline>
+                    <source src="images/homepage-video-2.mp4" type="video/mp4">
+                </video>
+                </div>
+              </div>
+             </div>
+        </header>
+        <h2 class="text-center text-muted pt-3 clearfix">Campuses</h2>
+        <div class="container">
+           <div class="row">
+               <div class="col-6">
+                   <img  src="images/home-hattiesburg-campus-feature-min.jpg" alt="bird yellow bird" width="800px">
+                   <div id="text-center">Hattiesburg Campus</div>
+                 </div>
+                    <div class="col-6">
+                   <img src="images/home-gulf-park-campus-feature-min.jpg" alt="green golf" width="800px">
+                   <div class="text-center1 fs-5">Gulf Park Campus</div>
+                  </div>
+           </div>
+        </div>
+        <div class="clearfix pt-3">
+         <h1 class=" h1 text-center">Find a program That's right for you.</h1>
+       </div>
+         <p class="d-flex justify-content-evenly">
+           <a class="text-decoration-none text-dark h2" href="https://www.usm.edu/undergraduate-programs/index.php">Explore Majors and Degree</a>
+           <span class="separator">Or</span>
+           <a class="text-decoration-none text-dark h2" href="https://www.usm.edu/undergraduate-programs/index.php">Meet Our faculty</a>
+         </p>
+         <div class="container4">
+          <div class="row d-flex justify-content-evenly">
+            <div class="col-md-8 col-12">
+              <div class="circle ">
+                <div class="circle-item">
+                   <p>114</p>
+                   <span class="text-center">Years since our founding 1910</span>
+                </div>
+              </div>
+              <div class="circle">
+                <div class="circle-item">
+                   <p>70+</p>
+                   <span  class="text-center">Countries represented by our student</span>
+                </div>
+              </div>
+              <div class="circle">
+                <div class="circle-item">
+                   <p>27</p>
+                   <span class="text-center">Glodwater scholers</span>
+                </div>
+              </div>
+              </div>
+          </div>
+           <div class="row d-flex justify-content-center ">
+          <div class=" col-md-8 col-12 ">
+            <div class="circle ">
+              <div class="circle-item">
+                 <p>17</p>
+                 <span class="text-center">Division 1 sport</span>
+              </div>
+            </div>
+            <div class="circle">
+              <div class="circle-item">
+                 <p class="">30</p>
+                 <span class="text-center">abroad programs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="container">
+          <div class="row" >
+              <div class="col-12 d-flex justify-content-evenly">
+                <div class="h2"><a class="text-start text-dark text-decoration-none "href="">Features</a></div>
+                <div class="h2"><a class="fw-bold text-dark text-decoration-none" href="">Master Of Bussiness Administration</a></div>
+                <div class="h2"><a class="fw-bold text-dark text-decoration-none">Ocen Engineeering</a></div>
+              </div>
+            
+            </div>
+          </div>
+         </div>
+         <h2 class="h1 text-center">Points of Pride</h2>
+         <div class="container my-4">
+
+          <div id="carouselExampleDark" class="carousel carousel-dark slide">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                      <!-- <img src="..." class="d-block w-100" alt="..."> -->
+          
+                      <!-- Instead of image, div with style and min-height --><div style="min-height: 200px;">
+                          <div class="carousel-caption  d-flex col-12 justify-content-evenly">
+                              
+                              <p class="border-end border-warning border-4"> We are a Carnegie R1 research institution and one of the nation’s leading research
+                                <p class="border-end border-warning border-4"> We are a Carnegie R1 research institution and one of the nation’s leading research
+                                universities.</p>
+                                <p class="border-end border-warning border-4">Our research enterprise includes experts in ocean science and engineering, polymer
+                                  science and engineering, and sport venue safety and security, among others.</p>
+                                  <p class="border-end border-warning border-4">Our students have collected four Truman Scholarships and 37 National Science Foundation
+                                    Graduate Research Fellowships.</p>
+                          </div>
+                      </div><!-- end of div style min-height: 140px; -->
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                      <!-- Instead of image, div with style and min-height --><div style="min-height: 200px;">
+                          <div class="carousel-caption d-flex col-12   justify-content-evenly">
+                               <p class="border-end border-warning border-4">As an economic driver, we generate an annual economic impact of more than $600 million
+                                across the state.</p>
+                              <p class="border-end border-warning border-4">We are one of only 39 institutions in the nation accredited in theatre, art and design,
+                                dance and music.</p>
+                                <p class="border-end border-warning border-4">We are one of only 39 institutions in the nation accredited in theatre, art and design,
+                                  dance and music.</p>
+                          </div>
+                      </div><!-- end of div style min-height: 140px; -->
+                  </div>
+                  <div class="carousel-item">
+                      <!-- Instead of image, div with style and min-height --><div style="min-height: 200px;">
+                          <div class="carousel-caption d-flex col-12   justify-content-evenly">
+                               <p class="border-end border-warning border-4">We offer the only ocean engineering degree in Mississippi.</p>
+                              <p class="border-end border-warning border-4"> We are home to the sixth-oldest acceptance-based Honors College in the nation and
+                                the oldest in Mississippi.</p>
+                                <p class="border-end border-warning border-4">We are one of only 39 institutions in the nation accredited in theatre, art and design,
+                                  dance and music.</p>
+                          </div>
+                      </div><!-- end of div style min-height: 140px; -->
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+            
+            
+          </div><!-- end .container -->
+          <div class="create">
+          <h2 class="text-center"> Create Your Own Shouthern Story</h2>
+          <div class="row">
+            <div class="col-12 d-flex justify-content-evenly mt-5">
+              
+              <div class="h3 "><a class="fw-bold  text-decoration-none text-muted" href="">Schedule a Visit</a></div>
+              <div class="h3 "><a  class="fw-bold  text-decoration-none text-muted  " href="">Get Involve</a></div>
+              <div class="h3 "><a class="fw-bold  text-decoration-none  text-muted " href="">Apply</a></div>
+            </div>
+          
+          </div>
+        </div>
+          <div class="bg my-4">
+            <div class="bg_container">
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active d-flex flex-row col-6 justify-content-evenly">
+                    <img class="ps-2" src="images/childrenscenter-opt.jpeg"  alt="" width="200px">
+                    <img class="ps-2" src="images/dubardschool-min.jpg"  alt="" width="200px">
+                    <img class="ps-2"src="images/entrepreneurship-min.jpg"  alt="" width="200px">
+                    <div class="carousel-caption">
+                     
+                      <p class="text-dark">Some representative placeholder content for the first slide.</p>
+                      <h5 class="text-dark">First slide label</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item active d-flex flex-row col-6 justify-content-evenly">
+                    <img class="ps-2" src="images/childrenscenter-opt.jpeg"  alt="" width="200px">
+                    <img class="ps-2" src="images/dubardschool-min.jpg"  alt="" width="200px">
+                    <img class="ps-2"src="images/entrepreneurship-min.jpg"  alt="" width="200px">
+                    <div class="carousel-caption">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item active d-flex flex-row col-6 justify-content-evenly">
+                    <img class="ps-2" src="images/childrenscenter-opt.jpeg"  alt="" width="200px">
+                    <img class="ps-2" src="images/dubardschool-min.jpg"  alt="" width="200px">
+                    <img class="ps-2"src="images/entrepreneurship-min.jpg"  alt="" width="200px">
+                    <div class="carousel-caption">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+          </div>
+          <div class="container4">
+              <div class="row">
+                <diV class="col-md-4 d-flex flex-row justify-content- center ">
+                  <iframe class=" aiframe ps-2 " width="300" height="315" src="https://www.youtube.com/embed/oZrHYwNTYYc?si=IgUEn6rz8z0ghOSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe  class="aiframe ps-3"width="300" height="315" src="https://www.youtube.com/embed/oZrHYwNTYYc?si=IgUEn6rz8z0ghOSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe class=" aiframe ps-3" width="300" height="315" src="https://www.youtube.com/embed/oZrHYwNTYYc?si=IgUEn6rz8z0ghOSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </diV>
+              </div>
+          </div>
+         
+ </body>  
+ </html> 
